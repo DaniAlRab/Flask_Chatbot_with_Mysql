@@ -1,0 +1,7 @@
+PowerShell
+
+Invoke-RestMethod -Uri "http://127.0.0.1:5000/chat" -Method Post -Headers @{"Content-Type"="application/json"} -Body '{"question": "How can I reset my password?"}'
+
+CMD
+
+curl -X POST -H "Content-Type: application/json" -d "{\"question\": \"What is your name?\"}" http://127.0.0.1:5000/chat
