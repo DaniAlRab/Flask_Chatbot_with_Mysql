@@ -1,4 +1,4 @@
-# Simple Chatbot FAQ System with MySQL
+# Simple Chatbot for FAQ with MySQL
 
 ## Project Overview
 This project is a **Flask-based chatbot** that provides automatic responses to frequently asked questions (FAQs) stored in a **MySQL database**. It includes endpoints for handling user queries, managing FAQs, and interacting with a front-end interface for FAQ administration.
