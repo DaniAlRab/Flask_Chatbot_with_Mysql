@@ -84,13 +84,13 @@ Response:
 ```
 
 ### **2. Get All FAQs**
-Retrieve all stored FAQs:
+Retrieve all stored FAQs from the DB:
 ```bash
 curl -X GET http://127.0.0.1:5000/faqs
 ```
 
 ### **3. Add a New FAQ**
-Send a **POST** request to add a new FAQ:
+Send a **POST** request to add a new FAQ with Answers:
 ```bash
 curl -X POST -H "Content-Type: application/json" -d '{"question": "How do I change my email?", "answer": "Go to settings and update your email."}' http://127.0.0.1:5000/add_faq
 ```
